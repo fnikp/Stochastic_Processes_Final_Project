@@ -7,6 +7,7 @@ This project was completed as a final project for the course "Stochastic Process
 The goal of this project was to analyze a system of stochastic equations:
 
 $$\dot{x_1}(t) = 4 x_1(t) - x_1^3(t) + g \times \Gamma_1(t)$$
+
 $$\dot{x_2}(t) = -x_1(t)x_2(t) + g \times \Gamma_2(t)$$
 
 Here, $\Gamma_i$ is white noise. The equations were integrated for different strengths of noise ($g$), and the correlation between $x_1$ and $x_2$ was investigated by creating scatter plots of $x_1$ vs. $x_2$.
